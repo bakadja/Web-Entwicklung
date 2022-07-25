@@ -1,0 +1,131 @@
+body{
+    font-family: 'Berlin Sans FB','Trebuchet MS',Arial; 
+    border:1px solid #424580;
+}
+.color_blue_dark{
+    color:#283645;
+}
+.color_blue_light{
+    color:#1490D7;
+}
+.color_orange{
+    color:#FF8000;
+}
+.color_white{
+    color:white;
+}
+.size40{
+    font-size: 40px;
+}
+.size20{
+    font-size: 20px;
+}
+.text_center{
+    text-align: center;
+}
+.bg_color_blue{
+    background-color:#424580;
+}
+h2{
+    padding:0px;
+    margin:30px 0px;
+}
+.border_bottom_dark{
+    border-bottom:1px solid #283645;
+}
+.gauche{
+    float: left;
+}
+.clear{
+    clear:both;
+}
+
+/******
+**HEADER
+******/
+.header{
+    display:flex;
+    align-items: center ; 
+    text-align: center;     
+}
+.header .photo_perso{
+    width: 33.3%;
+}
+.header .poste_recherche{
+    flex:auto;
+}  
+.header .info_perso{
+    width: 33.3%;
+}
+.header .photo_perso img{
+    height:300px;           
+}
+/******
+**FIN HEADER
+******/
+
+/******
+**footer
+******/
+.footer{
+    padding:10px;       
+    margin-top:50px;
+}
+
+
+/******
+**FIN Footer
+******/
+
+/******
+**Corps
+******/
+
+.corps{
+    padding:0 2%;  
+}
+.kompetenzbreich table{ 
+    width:100%;         
+}
+.kompetenzbreich table td,.kompetenzbreich table th{
+    padding:10px 20px;
+    border: 1px solid #283645;
+    width:33.3%;            
+}
+.col1{
+    width:25%;     
+}
+.col2{
+    width:75%;        
+}
+
+/****** 
+**FIN Corps
+******/ 
+ /* RESPONSIVE DESIGN : MOBILE */
+@media only screen and (max-width: 769px){
+    
+    .size40{
+        font-size: 22px;
+    }
+    .size20{
+        font-size: 14px;
+    }
+    .header .photo_perso img{
+        height:100px;  
+    }
+    .col1{
+        width:30%;         
+    }
+    .col2{
+        width:70%;     
+    }
+ }
+ @media (min-width:770px) and (max-width: 1300px){
+    .col1{
+        width:36%;          
+    }
+    .col2{
+    width:64%;          
+    }
+ }

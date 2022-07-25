@@ -1,0 +1,33 @@
+
+nav ul{
+    margin:0;       
+    padding:0;
+    display:flex;
+}
+nav li{
+    list-style-type:none; 
+    width:33.3%; 
+    text-align:center;  
+}
+nav a{
+    display:block;      
+    color:white;
+    padding:20 px 30px;     
+    text-transform:uppercase;       
+    text-decoration:none;
+}
+nav li:hover a{
+    padding:15px 30px 20px 30px;   
+}
+.menu_info:hover{
+    border-top:5px solid #4c8;
+    background-color: rgba(64,200,130,0.25);
+} 
+.menu_expereience:hover{
+    border-top:5px solid #f1dc4f;
+    background-color: rgba(241,211,70,0.25);
+}
+.menu_contact:hover{
+    border-top:5px solid #e44d26;
+    background-color: rgba(228,77,130,0.15);
+}
